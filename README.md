@@ -1,4 +1,4 @@
-### Knowledge Graph Construction and Interpretation
+# Knowledge Graph Construction and Interpretation
 
 ### To Run:
 python DataBuilder.py
