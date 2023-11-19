@@ -20,8 +20,8 @@ class CustomDataset(Dataset):
         y = self.Y[idx]
 
         # Tokenize input and target sequences with truncation and padding
-        input_ids = self.tokenizer.encode(x, return_tensors="pt", truncation=True, padding="max_length", max_length=self.max_seq_length_for_input)
-        target_ids = self.tokenizer.encode(y, return_tensors="pt", truncation=True, padding="max_length", max_length=self.max_seq_length_for_target)
+        input_ids = self.tokenizer.encode(x, return_tensors="pt", truncation=True, padding="max_length", max_length=self.max_seq_length_for_input)[0]
+        target_ids = self.tokenizer.encode(y, return_tensors="pt", truncation=True, padding="max_length", max_length=self.max_seq_length_for_target)[0]
 
         return {'input_ids': input_ids, 'labels': target_ids}
 
