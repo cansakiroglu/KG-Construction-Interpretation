@@ -88,19 +88,14 @@ if __name__ == '__main__':
     # Load the data
     with open('data/triplets_data_train.pkl', 'rb') as f:
         triplets_data_train = pickle.load(f)
-
     with open('data/triplets_data_validation.pkl', 'rb') as f:
         triplets_data_validation = pickle.load(f)
-
     with open('data/triplets_data_test.pkl', 'rb') as f:
         triplets_data_test = pickle.load(f)
-
     with open('data/sents_data_train.pkl', 'rb') as f:
         sents_data_train = pickle.load(f)
-
     with open('data/sents_data_validation.pkl', 'rb') as f:
         sents_data_validation = pickle.load(f)
-
     with open('data/sents_data_test.pkl', 'rb') as f:
         sents_data_test = pickle.load(f)
 

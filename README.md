@@ -1,5 +1,7 @@
 # Knowledge Graph Construction and Interpretation
 
 ### To Run:
-python DataBuilder.py
-python main.py
+1) python DataBuilder.py
+2) python main.py
+OR
+2) python finetune-BART.py
